@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./src/assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./src/css/output.css">
+  <title>Frontend Mentor | Advice generator app</title>
+</head>
+
+<body class="bg-[hsl(218,23%,16%)] w-screen h-screen flex justify-center items-center">
+  <main class="bg-[hsl(217,19%,24%)] relative max-w-9/10 w-full flex flex-col gap-8 items-center font-(family-name:--Manrope) font-extrabold py-10 px-5 rounded-xl md:p-10 lg:max-w-4/10 xl:max-w-3/10">
+    <h1 class="text-[hsl(150,100%,66%)] w-full text-center tracking-[0.5em] text-[12px]">ADVICE #<span id="advice-id"></span></h1>
+
+    <p id="advice" class="text-[hsl(193,38%,86%)] text-[28px] text-center"></p>
+
+    <div class="flex items-center gap-4 w-full pb-6">
+      <span class="w-full h-[2px] bg-[hsl(217,19%,38%)]"></span>
+      <div class="flex gap-2">
+        <span class="w-2 h-5 rounded-2xl bg-[hsl(193,38%,86%)]"></span>
+        <span class="w-2 h-5 rounded-2xl bg-[hsl(193,38%,86%)]"></span>
+      </div>
+      <span class="w-full h-[2px] bg-[hsl(217,19%,38%)]"></span>
+    </div>
+
+    <button id="btn" class="bg-[hsl(150,100%,66%)] absolute -bottom-8 rounded-full size-17 flex justify-center items-center cursor-pointer transition-all duration-150 ease-in-out hover:shadow-[0px_0px_25px_1px_#52ffa8]"><img src="./src/assets/images/icon-dice.svg"></button>
+  </main>
+
+  <script src="./src/js/script.js"></script>
+</body>
+
+</html>

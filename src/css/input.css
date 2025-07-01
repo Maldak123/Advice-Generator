@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+:root{
+  --Manrope: "Manrope", var(--font-serif)
+}
